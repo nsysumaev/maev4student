@@ -1,488 +1,958 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="shortcut icon" href="assets/ico/favicon.ico">
 
-	<title>海工系招生網頁</title>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-	<!-- Bootstrap core CSS -->
-    <link href="assets/css/bootstrap.css" rel="stylesheet">
+	<title>HTML Template</title>
 
-    <!-- Custom styles for this template -->
-    <link href="assets/css/style.css" rel="stylesheet">
-    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+	<!-- Google font -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CVarela+Round" rel="stylesheet">
 
+	<!-- Bootstrap -->
+	<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
 
-    <!-- Just for debugging purposes. Don't actually copy this line! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+	<!-- Owl Carousel -->
+	<link type="text/css" rel="stylesheet" href="css/owl.carousel.css" />
+	<link type="text/css" rel="stylesheet" href="css/owl.theme.default.css" />
 
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-    
-    <script src="assets/js/modernizr.js"></script>
-  </head>
+	<!-- Magnific Popup -->
+	<link type="text/css" rel="stylesheet" href="css/magnific-popup.css" />
 
-  <body>
+	<!-- Font Awesome Icon -->
+	<link rel="stylesheet" href="css/font-awesome.min.css">
 
-    <!-- Fixed navbar -->
-    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="index.html">MAEV FOR STUDENT.</a>
-        </div>
-        <div class="navbar-collapse collapse navbar-right">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="index.html">首頁</a></li>
-            <li><a href="about.html">關於我們</a></li>
-            <li><a href="contact.html">聯絡我們</a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">其他頁面 <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li><a href="enroll.html">入學資訊</a></li>
-                <li><a href="course.html">課程介紹</a></li>
-                <li><a href="development.html">職涯發展</a></li>
+	<!-- Custom stlylesheet -->
+	<link type="text/css" rel="stylesheet" href="css/style.css" />
 
-              </ul>
-            </li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-    </div>
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+</head>
 
-	<!-- *****************************************************************************************************************
-	 HEADERWRAP
-	 ***************************************************************************************************************** -->
-	<div id="headerwrap">
-	    <div class="container">
+<body>
+	<!-- Header -->
+	<header id="home">
+		<!-- Background Image -->
+		<div class="bg-img" style="background-image: url('./img/background1.jpg');">
+			<div class="overlay"></div>
+		</div>
+		<!-- /Background Image -->
+
+		<!-- Nav -->
+		<nav id="nav" class="navbar nav-transparent">
+			<div class="container">
+
+				<div class="navbar-header">
+					<!-- Logo -->
+					<div class="navbar-brand">
+						<a href="index.html">
+							<img class="logo" src="img/logo.png" alt="logo">
+							<img class="logo-alt" src="img/logo-alt.png" alt="logo">
+						</a>
+					</div>
+					<!-- /Logo -->
+
+					<!-- Collapse nav button -->
+					<div class="nav-collapse">
+						<span></span>
+					</div>
+					<!-- /Collapse nav button -->
+				</div>
+
+				<!--  Main navigation  -->
+				<ul class="main-nav nav navbar-nav navbar-right">
+					<li><a href="#home">Home</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#portfolio">Portfolio</a></li>
+					<li><a href="#service">Services</a></li>
+					<li><a href="#pricing">Prices</a></li>
+					<li><a href="#team">Team</a></li>
+					<li class="has-dropdown"><a href="#blog">Blog</a>
+						<ul class="dropdown">
+							<li><a href="blog-single.html">blog post</a></li>
+						</ul>
+					</li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+				<!-- /Main navigation -->
+
+			</div>
+		</nav>
+		<!-- /Nav -->
+
+		<!-- home wrapper -->
+		<div class="home-wrapper">
+			<div class="container">
+				<div class="row">
+
+					<!-- home content -->
+					<div class="col-md-10 col-md-offset-1">
+						<div class="home-content">
+							<h1 class="white-text">We Are Creative Agency</h1>
+							<p class="white-text">Morbi mattis felis at nunc. Duis viverra diam non justo. In nisl. Nullam sit amet magna in magna gravida vehicula. Mauris tincidunt sem sed arcu. Nunc posuere.
+							</p>
+							<button class="white-btn">Get Started!</button>
+							<button class="main-btn">Learn more</button>
+						</div>
+					</div>
+					<!-- /home content -->
+
+				</div>
+			</div>
+		</div>
+		<!-- /home wrapper -->
+
+	</header>
+	<!-- /Header -->
+
+	<!-- About -->
+	<div id="about" class="section md-padding">
+
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Row -->
 			<div class="row">
-				<div class="col-lg-8 col-lg-offset-2">
-					<h1>海洋環境及工程學系 招生專頁</h1>
-					<h5>DEPARTMENT OF MARINE ENVIRONMENT AND ENGINEERING.</h5>
-				
+
+				<!-- Section header -->
+				<div class="section-header text-center">
+					<h2 class="title">Welcome to Website</h2>
 				</div>
-				<div class="col-lg-8 col-lg-offset-2 himg">
-					<img src="assets/img/browser.png" class="img-responsive">
+				<!-- /Section header -->
+
+				<!-- about -->
+				<div class="col-md-4">
+					<div class="about">
+						<i class="fa fa-cogs"></i>
+						<h3>Fully Customizible</h3>
+						<p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero sit amet.</p>
+						<a href="#">Read more</a>
+					</div>
 				</div>
-			</div><!-- /row -->
-	    </div> <!-- /container -->
-	</div><!-- /headerwrap -->
+				<!-- /about -->
 
-	<!-- *****************************************************************************************************************
-	 SERVICE LOGOS
-	 ***************************************************************************************************************** -->
-	 <div id="service">
-	 	<div class="container">
- 			<div class="row centered">
- 				<div class="col-md-4">
- 					<i class="fa fa-sign-in"></i>
- 					<h4>入學資訊</h4>
- 					<p>大學部以及碩士班之招生方式及入學資訊。碩士班相關獎學金說明。</p>
- 					<p><br/><a href="enroll.html" class="btn btn-theme">查看更多</a></p>
- 				</div>
- 				<div class="col-md-4">
- 					<i class="fa fa-book"></i>
- 					<h4>課程介紹</h4>
- 					<p>大學部以及碩士班必修、選修課程，系所畢業修課規定。其他本系特色學程介紹</p>
- 					<p><br/><a href="course.html" class="btn btn-theme">查看更多</a></p>
- 				</div>
- 				<div class="col-md-4">
- 					<i class="fa fa-briefcase"></i>
- 					<h4>職涯發展</h4>
- 					<p>本系畢業後職業及學術發展方向。 畢業校友發展現況統計。</p>
- 					<p><br/><a href="development.html" class="btn btn-theme">查看更多</a></p>
- 				</div>		 				
-	 		</div>
-	 	</div><! --/container -->
-	 </div><! --/service -->
-	 
-	<!-- *****************************************************************************************************************
-	 PORTFOLIO SECTION
-	 ***************************************************************************************************************** -->
-	 <div id="portfoliowrap">
-        <h3>歷年暑期海外參訪</h3>
+				<!-- about -->
+				<div class="col-md-4">
+					<div class="about">
+						<i class="fa fa-magic"></i>
+						<h3>Awesome Features</h3>
+						<p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero sit amet.</p>
+						<a href="#">Read more</a>
+					</div>
+				</div>
+				<!-- /about -->
 
-        <div class="portfolio-centered">
-            <div class="recentitems portfolio">
+				<!-- about -->
+				<div class="col-md-4">
+					<div class="about">
+						<i class="fa fa-mobile"></i>
+						<h3>Fully Responsive</h3>
+						<p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero sit amet.</p>
+						<a href="#">Read more</a>
+					</div>
+				</div>
+				<!-- /about -->
 
-                <div class="portfolio-item books">
-                    <div class="he-wrap tpl6">
-					<img src="assets/img/portfolio/portfoli_05.jpg" alt="">
-						<div class="he-view">
-							<div class="bg a0" data-animate="fadeIn">
-                                <h3 class="a1" data-animate="fadeInDown">2010 日本</h3>
-                                <!-- <a data-rel="prettyPhoto" href="assets/img/portfolio/portfolio_05.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a> -->
-                                <a href="http://maev.nsysu.edu.tw/files/14-1114-18198,r1508-1.php?Lang=zh-tw" title ="查看更多" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
-                        	</div><!-- he bg -->
-						</div><!-- he view -->		
-					</div><!-- he wrap -->
-				</div><!-- end col-12 -->
-                                        
-                <div class="portfolio-item graphic-design">
-                    <div class="he-wrap tpl6">
-					<img src="assets/img/portfolio/portfoli_06.jpg" alt="">
-						<div class="he-view">
-							<div class="bg a0" data-animate="fadeIn">
-                                <h3 class="a1" data-animate="fadeInDown">2011 荷蘭 比利時</h3>
-                                <!-- <a data-rel="prettyPhoto" href="assets/img/portfolio/portfolio_06.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a> -->
-                                <a href="http://maev.nsysu.edu.tw/files/14-1114-43727,r1508-1.php?Lang=zh-tw" title ="查看更多" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
-                        	</div><!-- he bg -->
-						</div><!-- he view -->		
-					</div><!-- he wrap -->
-				</div><!-- end col-12 -->
-                    
-                <div class="portfolio-item books">
-                    <div class="he-wrap tpl6">
-					<img src="assets/img/portfolio/portfoli_07.jpg" alt="">
-						<div class="he-view">
-							<div class="bg a0" data-animate="fadeIn">
-                                <h3 class="a1" data-animate="fadeInDown">2012 澳洲</h3>
-                                <!-- <a data-rel="prettyPhoto" href="assets/img/portfolio/portfolio_07.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a> -->
-                                <a href="http://maev.nsysu.edu.tw/files/14-1114-63168,r1508-1.php?Lang=zh-tw" title ="查看更多" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
-                        	</div><!-- he bg -->
-						</div><!-- he view -->		
-					</div><!-- he wrap -->
-				</div><!-- end col-12 -->
-                    
-                <div class="portfolio-item graphic-design">
-                    <div class="he-wrap tpl6">
-					<img src="assets/img/portfolio/portfoli_08.jpg" alt="">
-						<div class="he-view">
-							<div class="bg a0" data-animate="fadeIn">
-                                <h3 class="a1" data-animate="fadeInDown">2013 荷蘭 比利時 德國</h3>
-                                <!-- <a data-rel="prettyPhoto" href="assets/img/portfolio/portfolio_08.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a> -->
-                                <a href="http://maev.nsysu.edu.tw/files/14-1114-86773,r1508-1.php?Lang=zh-tw" title ="查看更多" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
-                        	</div><!-- he bg -->
-						</div><!-- he view -->		
-					</div><!-- he wrap -->
-				</div><!-- end col-12 -->
-                                        
-                <div class="portfolio-item web-design">
-                    <div class="he-wrap tpl6">
-					<img src="assets/img/portfolio/portfoli_01.jpg" alt="">
-						<div class="he-view">
-							<div class="bg a0" data-animate="fadeIn">
-                                <h3 class="a1" data-animate="fadeInDown">2014 美國</h3>
-                                <!-- <a data-rel="prettyPhoto" href="assets/img/portfolio/portfolio_01.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a> -->
-                                <a href="http://maev.nsysu.edu.tw/files/14-1114-103734,r1508-1.php?Lang=zh-tw" title ="查看更多" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
-                        	</div><!-- he bg -->
-						</div><!-- he view -->		
-					</div><!-- he wrap -->
-				</div><!-- end col-12 -->
-    
-			<div class="portfolio-item books">
-                <div class="he-wrap tpl6">
-					<img src="assets/img/portfolio/portfoli_10.jpg" alt="">
-						<div class="he-view">
-							<div class="bg a0" data-animate="fadeIn">
-                                <h3 class="a1" data-animate="fadeInDown">2016 泰國 新加坡</h3>
-                                <!-- <a data-rel="prettyPhoto" href="assets/img/portfolio/portfolio_10.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a> -->
-                                <a href="http://maev.nsysu.edu.tw/files/14-1114-159859,r1508-1.php?Lang=zh-tw" title ="查看更多" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
-                        	</div><!-- he bg -->
-						</div><!-- he view -->		
-					</div><!-- he wrap -->
-				</div><!-- end col-12 -->
-                    
-            </div><!-- portfolio -->
-        </div><!-- portfolio container -->
-	 </div><!--/Portfoliowrap -->
-	 
-	 
-	<!-- *****************************************************************************************************************
-	 MIDDLE CONTENT
-	 ***************************************************************************************************************** -->
+			</div>
+			<!-- /Row -->
 
-	 <div class="container mtb">
-	 	<div class="row">
-	 		<div class="col-lg-3">
-		 		<h4>更多關於海洋環境工程學系 . . .</h4>
-		 		<p>		本系的特色在結合海洋與近岸兩空間，就海洋環境管理體制、海洋工程技術、海洋環境污染與防治、
+		</div>
+		<!-- /Container -->
 
-						及海洋基礎科學如海洋物理與化學、海洋地形與地質、及海洋生態系統等各方面做綜合性及整體整體性的
-						
-						考量，造就建設與保護海洋環境所需的規劃設計與管理方面的人才...
-				</p>
- 				<p><br/><a href="about.html" class="btn btn-theme">查看更多</a></p>
-	 		</div>
-	 		
-	 		<div class="col-lg-3 col-lg-offset-1">
-	 			<h4>常見問題</h4>
-				 <div class="hline"></div>
-				 <!-- 發課程介紹模態框 -->
-				 <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-						<div class="modal-dialog">
-							<div class="modal-content">
-								<div class="modal-header">
-									<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
-										&times;
-									</button>
-									<h4 class="modal-title" id="myModalLabel">
-										我想問一下 海工系大部分在學些什麼?
-									</h4>
-								</div>
-								<div class="modal-body">
-										<p>海工系的全名是海洋環境及工程學系，基本上教學內容涵蓋的領域相當廣，主要大致可以分成幾類:</p><hr/>
+	</div>
+	<!-- /About -->
 
 
-											<p><b>第一類</b> 是土木、水利、以及海洋工程方面的課程</br>
-												
-												<b>第二類</b> 是跟環境工程比較相關的課程</br>
-												
-												<b>第三類</b> 是數值與測量方面的課程</p>									</div>
-								<div class="modal-footer">
-									<button type="button" class="btn btn-primary" data-dismiss="modal">
-										關閉
-									</button>
+	<!-- Portfolio -->
+	<div id="portfolio" class="section md-padding bg-grey">
+
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Row -->
+			<div class="row">
+
+				<!-- Section header -->
+				<div class="section-header text-center">
+					<h2 class="title">Featured Works</h2>
+				</div>
+				<!-- /Section header -->
+
+				<!-- Work -->
+				<div class="col-md-4 col-xs-6 work">
+					<img class="img-responsive" src="./img/work1.jpg" alt="">
+					<div class="overlay"></div>
+					<div class="work-content">
+						<span>Category</span>
+						<h3>Lorem ipsum dolor</h3>
+						<div class="work-link">
+							<a href="#"><i class="fa fa-external-link"></i></a>
+							<a class="lightbox" href="./img/work1.jpg"><i class="fa fa-search"></i></a>
+						</div>
+					</div>
+				</div>
+				<!-- /Work -->
+
+				<!-- Work -->
+				<div class="col-md-4 col-xs-6 work">
+					<img class="img-responsive" src="./img/work2.jpg" alt="">
+					<div class="overlay"></div>
+					<div class="work-content">
+						<span>Category</span>
+						<h3>Lorem ipsum dolor</h3>
+						<div class="work-link">
+							<a href="#"><i class="fa fa-external-link"></i></a>
+							<a class="lightbox" href="./img/work2.jpg"><i class="fa fa-search"></i></a>
+						</div>
+					</div>
+				</div>
+				<!-- /Work -->
+
+				<!-- Work -->
+				<div class="col-md-4 col-xs-6 work">
+					<img class="img-responsive" src="./img/work3.jpg" alt="">
+					<div class="overlay"></div>
+					<div class="work-content">
+						<span>Category</span>
+						<h3>Lorem ipsum dolor</h3>
+						<div class="work-link">
+							<a href="#"><i class="fa fa-external-link"></i></a>
+							<a class="lightbox" href="./img/work3.jpg"><i class="fa fa-search"></i></a>
+						</div>
+					</div>
+				</div>
+				<!-- /Work -->
+
+				<!-- Work -->
+				<div class="col-md-4 col-xs-6 work">
+					<img class="img-responsive" src="./img/work4.jpg" alt="">
+					<div class="overlay"></div>
+					<div class="work-content">
+						<span>Category</span>
+						<h3>Lorem ipsum dolor</h3>
+						<div class="work-link">
+							<a href="#"><i class="fa fa-external-link"></i></a>
+							<a class="lightbox" href="./img/work4.jpg"><i class="fa fa-search"></i></a>
+						</div>
+					</div>
+				</div>
+				<!-- /Work -->
+
+				<!-- Work -->
+				<div class="col-md-4 col-xs-6 work">
+					<img class="img-responsive" src="./img/work5.jpg" alt="">
+					<div class="overlay"></div>
+					<div class="work-content">
+						<span>Category</span>
+						<h3>Lorem ipsum dolor</h3>
+						<div class="work-link">
+							<a href="#"><i class="fa fa-external-link"></i></a>
+							<a class="lightbox" href="./img/work5.jpg"><i class="fa fa-search"></i></a>
+						</div>
+					</div>
+				</div>
+				<!-- /Work -->
+
+				<!-- Work -->
+				<div class="col-md-4 col-xs-6 work">
+					<img class="img-responsive" src="./img/work6.jpg" alt="">
+					<div class="overlay"></div>
+					<div class="work-content">
+						<span>Category</span>
+						<h3>Lorem ipsum dolor</h3>
+						<div class="work-link">
+							<a href="#"><i class="fa fa-external-link"></i></a>
+							<a class="lightbox" href="./img/work6.jpg"><i class="fa fa-search"></i></a>
+						</div>
+					</div>
+				</div>
+				<!-- /Work -->
+
+			</div>
+			<!-- /Row -->
+
+		</div>
+		<!-- /Container -->
+
+	</div>
+	<!-- /Portfolio -->
+
+	<!-- Service -->
+	<div id="service" class="section md-padding">
+
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Row -->
+			<div class="row">
+
+				<!-- Section header -->
+				<div class="section-header text-center">
+					<h2 class="title">What we offer</h2>
+				</div>
+				<!-- /Section header -->
+
+				<!-- service -->
+				<div class="col-md-4 col-sm-6">
+					<div class="service">
+						<i class="fa fa-diamond"></i>
+						<h3>App Development</h3>
+						<p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero.</p>
+					</div>
+				</div>
+				<!-- /service -->
+
+				<!-- service -->
+				<div class="col-md-4 col-sm-6">
+					<div class="service">
+						<i class="fa fa-rocket"></i>
+						<h3>Graphic Design</h3>
+						<p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero.</p>
+					</div>
+				</div>
+				<!-- /service -->
+
+				<!-- service -->
+				<div class="col-md-4 col-sm-6">
+					<div class="service">
+						<i class="fa fa-cogs"></i>
+						<h3>Creative Idea</h3>
+						<p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero.</p>
+					</div>
+				</div>
+				<!-- /service -->
+
+				<!-- service -->
+				<div class="col-md-4 col-sm-6">
+					<div class="service">
+						<i class="fa fa-diamond"></i>
+						<h3>Marketing</h3>
+						<p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero.</p>
+					</div>
+				</div>
+				<!-- /service -->
+
+				<!-- service -->
+				<div class="col-md-4 col-sm-6">
+					<div class="service">
+						<i class="fa fa-pencil"></i>
+						<h3>Awesome Support</h3>
+						<p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero.</p>
+					</div>
+				</div>
+				<!-- /service -->
+
+				<!-- service -->
+				<div class="col-md-4 col-sm-6">
+					<div class="service">
+						<i class="fa fa-flask"></i>
+						<h3>Brand Design</h3>
+						<p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero.</p>
+					</div>
+				</div>
+				<!-- /service -->
+
+			</div>
+			<!-- /Row -->
+
+		</div>
+		<!-- /Container -->
+
+	</div>
+	<!-- /Service -->
+
+
+	<!-- Why Choose Us -->
+	<div id="features" class="section md-padding bg-grey">
+
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Row -->
+			<div class="row">
+
+				<!-- why choose us content -->
+				<div class="col-md-6">
+					<div class="section-header">
+						<h2 class="title">Why Choose Us</h2>
+					</div>
+					<p>Molestie at elementum eu facilisis sed odio. Scelerisque in dictum non consectetur a erat. Aliquam id diam maecenas ultricies mi eget mauris. Ultrices sagittis orci a scelerisque purus.</p>
+					<div class="feature">
+						<i class="fa fa-check"></i>
+						<p>Quis varius quam quisque id diam vel quam elementum.</p>
+					</div>
+					<div class="feature">
+						<i class="fa fa-check"></i>
+						<p>Mauris augue neque gravida in fermentum.</p>
+					</div>
+					<div class="feature">
+						<i class="fa fa-check"></i>
+						<p>Orci phasellus egestas tellus rutrum.</p>
+					</div>
+					<div class="feature">
+						<i class="fa fa-check"></i>
+						<p>Nec feugiat nisl pretium fusce id velit ut tortor pretium.</p>
+					</div>
+				</div>
+				<!-- /why choose us content -->
+
+				<!-- About slider -->
+				<div class="col-md-6">
+					<div id="about-slider" class="owl-carousel owl-theme">
+						<img class="img-responsive" src="./img/about1.jpg" alt="">
+						<img class="img-responsive" src="./img/about2.jpg" alt="">
+						<img class="img-responsive" src="./img/about1.jpg" alt="">
+						<img class="img-responsive" src="./img/about2.jpg" alt="">
+					</div>
+				</div>
+				<!-- /About slider -->
+
+			</div>
+			<!-- /Row -->
+
+		</div>
+		<!-- /Container -->
+
+	</div>
+	<!-- /Why Choose Us -->
+
+
+	<!-- Numbers -->
+	<div id="numbers" class="section sm-padding">
+
+		<!-- Background Image -->
+		<div class="bg-img" style="background-image: url('./img/background2.jpg');">
+			<div class="overlay"></div>
+		</div>
+		<!-- /Background Image -->
+
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Row -->
+			<div class="row">
+
+				<!-- number -->
+				<div class="col-sm-3 col-xs-6">
+					<div class="number">
+						<i class="fa fa-users"></i>
+						<h3 class="white-text"><span class="counter">451</span></h3>
+						<span class="white-text">Happy clients</span>
+					</div>
+				</div>
+				<!-- /number -->
+
+				<!-- number -->
+				<div class="col-sm-3 col-xs-6">
+					<div class="number">
+						<i class="fa fa-trophy"></i>
+						<h3 class="white-text"><span class="counter">12</span></h3>
+						<span class="white-text">Awards won</span>
+					</div>
+				</div>
+				<!-- /number -->
+
+				<!-- number -->
+				<div class="col-sm-3 col-xs-6">
+					<div class="number">
+						<i class="fa fa-coffee"></i>
+						<h3 class="white-text"><span class="counter">154</span>K</h3>
+						<span class="white-text">Cups of Coffee</span>
+					</div>
+				</div>
+				<!-- /number -->
+
+				<!-- number -->
+				<div class="col-sm-3 col-xs-6">
+					<div class="number">
+						<i class="fa fa-file"></i>
+						<h3 class="white-text"><span class="counter">45</span></h3>
+						<span class="white-text">Projects completed</span>
+					</div>
+				</div>
+				<!-- /number -->
+
+			</div>
+			<!-- /Row -->
+
+		</div>
+		<!-- /Container -->
+
+	</div>
+	<!-- /Numbers -->
+
+	<!-- Pricing -->
+	<div id="pricing" class="section md-padding">
+
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Row -->
+			<div class="row">
+
+				<!-- Section header -->
+				<div class="section-header text-center">
+					<h2 class="title">Pricing Table</h2>
+				</div>
+				<!-- /Section header -->
+
+				<!-- pricing -->
+				<div class="col-sm-4">
+					<div class="pricing">
+						<div class="price-head">
+							<span class="price-title">Basic plan</span>
+							<div class="price">
+								<h3>$9<span class="duration">/ month</span></h3>
+							</div>
+						</div>
+						<ul class="price-content">
+							<li>
+								<p>1GB Disk Space</p>
+							</li>
+							<li>
+								<p>100 Email Account</p>
+							</li>
+							<li>
+								<p>24/24 Support</p>
+							</li>
+						</ul>
+						<div class="price-btn">
+							<button class="outline-btn">Purchase now</button>
+						</div>
+					</div>
+				</div>
+				<!-- /pricing -->
+
+				<!-- pricing -->
+				<div class="col-sm-4">
+					<div class="pricing">
+						<div class="price-head">
+							<span class="price-title">Silver plan</span>
+							<div class="price">
+								<h3>$19<span class="duration">/ month</span></h3>
+							</div>
+						</div>
+						<ul class="price-content">
+							<li>
+								<p>1GB Disk Space</p>
+							</li>
+							<li>
+								<p>100 Email Account</p>
+							</li>
+							<li>
+								<p>24/24 Support</p>
+							</li>
+						</ul>
+						<div class="price-btn">
+							<button class="outline-btn">Purchase now</button>
+						</div>
+					</div>
+				</div>
+				<!-- /pricing -->
+
+				<!-- pricing -->
+				<div class="col-sm-4">
+					<div class="pricing">
+						<div class="price-head">
+							<span class="price-title">Gold plan</span>
+							<div class="price">
+								<h3>$39<span class="duration">/ month</span></h3>
+							</div>
+						</div>
+						<ul class="price-content">
+							<li>
+								<p>1GB Disk Space</p>
+							</li>
+							<li>
+								<p>100 Email Account</p>
+							</li>
+							<li>
+								<p>24/24 Support</p>
+							</li>
+						</ul>
+						<div class="price-btn">
+							<button class="outline-btn">Purchase now</button>
+						</div>
+					</div>
+				</div>
+				<!-- /pricing -->
+
+			</div>
+			<!-- Row -->
+
+		</div>
+		<!-- /Container -->
+
+	</div>
+	<!-- /Pricing -->
+
+
+	<!-- Testimonial -->
+	<div id="testimonial" class="section md-padding">
+
+		<!-- Background Image -->
+		<div class="bg-img" style="background-image: url('./img/background3.jpg');">
+			<div class="overlay"></div>
+		</div>
+		<!-- /Background Image -->
+
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Row -->
+			<div class="row">
+
+				<!-- Testimonial slider -->
+				<div class="col-md-10 col-md-offset-1">
+					<div id="testimonial-slider" class="owl-carousel owl-theme">
+
+						<!-- testimonial -->
+						<div class="testimonial">
+							<div class="testimonial-meta">
+								<img src="./img/perso1.jpg" alt="">
+								<h3 class="white-text">John Doe</h3>
+								<span>Web Designer</span>
+							</div>
+							<p class="white-text">Molestie at elementum eu facilisis sed odio. Scelerisque in dictum non consectetur a erat. Aliquam id diam maecenas ultricies mi eget mauris.</p>
+						</div>
+						<!-- /testimonial -->
+
+						<!-- testimonial -->
+						<div class="testimonial">
+							<div class="testimonial-meta">
+								<img src="./img/perso2.jpg" alt="">
+								<h3 class="white-text">John Doe</h3>
+								<span>Web Designer</span>
+							</div>
+							<p class="white-text">Molestie at elementum eu facilisis sed odio. Scelerisque in dictum non consectetur a erat. Aliquam id diam maecenas ultricies mi eget mauris.</p>
+						</div>
+						<!-- /testimonial -->
+
+					</div>
+				</div>
+				<!-- /Testimonial slider -->
+
+			</div>
+			<!-- /Row -->
+
+		</div>
+		<!-- /Container -->
+
+	</div>
+	<!-- /Testimonial -->
+
+	<!-- Team -->
+	<div id="team" class="section md-padding">
+
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Row -->
+			<div class="row">
+
+				<!-- Section header -->
+				<div class="section-header text-center">
+					<h2 class="title">Our Team</h2>
+				</div>
+				<!-- /Section header -->
+
+				<!-- team -->
+				<div class="col-sm-4">
+					<div class="team">
+						<div class="team-img">
+							<img class="img-responsive" src="./img/team1.jpg" alt="">
+							<div class="overlay">
+								<div class="team-social">
+									<a href="#"><i class="fa fa-facebook"></i></a>
+									<a href="#"><i class="fa fa-google-plus"></i></a>
+									<a href="#"><i class="fa fa-twitter"></i></a>
 								</div>
 							</div>
 						</div>
+						<div class="team-content">
+							<h3>John Doe</h3>
+							<span>Web Designer</span>
+						</div>
 					</div>
-					<!-- 發課程介紹模態框 end -->
-				 <!-- 發課程介紹模態框 -->
-				 <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-						<div class="modal-dialog">
-							<div class="modal-content">
-								<div class="modal-header">
-									<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
-										&times;
-									</button>
-									<h4 class="modal-title" id="myModalLabel">
-										請問海工系畢業之後可以從事那些工作?
-									</h4>
-								</div>
-								<div class="modal-body">
-										<p>海工系所學廣泛，範圍從土木、水利、環境到測量規劃都有涉及，畢業後可能的就業工作單位整理如下:</p><hr/>
+				</div>
+				<!-- /team -->
 
-
-										<p><b>(一)政府機關:</b>
-										港務公司（工程司）</br>
-										縣市政府: 水利及下水道局、工務局、都市發展局、環境工程局...</br>
-										環保署（環評科）</br>
-										水利署（水利規劃實驗師）</br>
-										自來水公司（工程處）</p><hr/>
-
-										<p><b>(二)研究機構:</b>
-										交通部運輸研究所（港灣技術研究中心）</br>
-										財團法人車輛研究測試中心（震動噪音）</br>
-										工研院能源與環境研究所</br>
-										中研院地球科學研究所</br>
-										台灣營建研究院</br>
-										國科會（工程處）</p><hr/>	
-
-										<p><b>(三)民間企業:</b>
-										海洋水下探測公司</br>
-										營造業/工程顧問公司</br>
-										環境工程顧問公司</br>
-										科技公司與製造業</br>
-										檢驗科技公司</p>						
-									</div>
-								<div class="modal-footer">
-									<button type="button" class="btn btn-primary" data-dismiss="modal">
-										關閉
-									</button>
+				<!-- team -->
+				<div class="col-sm-4">
+					<div class="team">
+						<div class="team-img">
+							<img class="img-responsive" src="./img/team2.jpg" alt="">
+							<div class="overlay">
+								<div class="team-social">
+									<a href="#"><i class="fa fa-facebook"></i></a>
+									<a href="#"><i class="fa fa-google-plus"></i></a>
+									<a href="#"><i class="fa fa-twitter"></i></a>
 								</div>
 							</div>
 						</div>
+						<div class="team-content">
+							<h3>John Doe</h3>
+							<span>Web Designer</span>
+						</div>
 					</div>
-					<!-- 發課程介紹模態框 end -->
-	 			<p><a  href='#' data-toggle="modal" data-target="#myModal1">我想問一下 海工系大部分在學些什麼?</a></p>
-	 			<p><a  href='#' data-toggle="modal" data-target="#myModal2">請問海工系畢業之後可以從事那些工作?</a></p>
-	 		</div>
-	 		
-	 		<div class="col-lg-3 col-lg-offset-1">
-	 			<h4>海工新聞</h4>
-	 			<div class="hline"></div>
-				<script>
-				document.write("<p><a href='#'><script  src='h1.js'><\/script></a></p>");
-				</script>
-	 		</div>
-	 		
-	 	</div><! --/row -->
-	 </div><! --/container -->
-	 
-	<!-- *****************************************************************************************************************
-	 TESTIMONIALS
-	 ***************************************************************************************************************** -->
-	 <div id="twrap", style="display:none">
-	 	<div class="container centered">
-	 		<div class="row">
-	 			<div class="col-lg-8 col-lg-offset-2">
-	 			<i class="fa fa-comment-o"></i>
-	 			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-	 			<h4><br/>Marcel Newman</h4>
-	 			<p>WEB DESIGNER - BLACKTIE.CO</p>
-	 			</div>
-	 		</div><! --/row -->
-	 	</div><! --/container -->
-	 </div><! --/twrap -->
-	 
-	<!-- *****************************************************************************************************************
-	 OUR CLIENTS
-	 ***************************************************************************************************************** -->
-	 
-	 <div id="cwrap", style="display:none">
-		 <div class="container">
-		 	<div class="row centered">
-			 	<h3>OUR CLIENTS</h3>
-			 	<div class="col-lg-3 col-md-3 col-sm-3">
-			 		<img src="assets/img/clients/client01.png" class="img-responsive">
-			 	</div>
-			 	<div class="col-lg-3 col-md-3 col-sm-3">
-			 		<img src="assets/img/clients/client02.png" class="img-responsive">
-			 	</div>
-			 	<div class="col-lg-3 col-md-3 col-sm-3">
-			 		<img src="assets/img/clients/client03.png" class="img-responsive">
-			 	</div>
-			 	<div class="col-lg-3 col-md-3 col-sm-3">
-			 		<img src="assets/img/clients/client04.png" class="img-responsive">
-			 	</div>
-		 	</div><! --/row -->
-		 </div><! --/container -->
-	 </div><! --/cwrap -->
+				</div>
+				<!-- /team -->
 
-	<!-- *****************************************************************************************************************
-	 FOOTER
-	 ***************************************************************************************************************** -->
+				<!-- team -->
+				<div class="col-sm-4">
+					<div class="team">
+						<div class="team-img">
+							<img class="img-responsive" src="./img/team3.jpg" alt="">
+							<div class="overlay">
+								<div class="team-social">
+									<a href="#"><i class="fa fa-facebook"></i></a>
+									<a href="#"><i class="fa fa-google-plus"></i></a>
+									<a href="#"><i class="fa fa-twitter"></i></a>
+								</div>
+							</div>
+						</div>
+						<div class="team-content">
+							<h3>John Doe</h3>
+							<span>Web Designer</span>
+						</div>
+					</div>
+				</div>
+				<!-- /team -->
 
-	 <div id="footerwrap">
-	 	<div class="container">
-		 	<div class="row">
-		 		<div class="col-lg-4">
-		 			<h4>相關網站</h4>
-		 			<div class="hline-w"></div>
-		 			<p>更新中...</p>
-		 		</div>
-		 		<div class="col-lg-4">
-		 			<h4>本系社群</h4>
-		 			<div class="hline-w"></div>
-		 			<p>
-		 				<a href="http://www.maev.nsysu.edu.tw/bin/home.php" title="本系網頁"><i class="fa fa-dribbble"></i></a>
-		 				<a href="https://www.facebook.com/maev.nsysu/" title="本系FB專頁"><i class="fa fa-facebook"></i></a>
+			</div>
+			<!-- /Row -->
 
-		 				<a href="#" title="本系IG"><i class="fa fa-instagram"></i></a>
+		</div>
+		<!-- /Container -->
 
-		 			</p>
-		 		</div>
-		 		<div class="col-lg-4">
-		 			<h4>系所位置</h4>
-		 			<div class="hline-w"></div>
-		 			<p>
-						804	高雄市鼓山區蓮海路70號<br/>
-						│<a href="contact.html#map">如何到達本系館</a>│<a href="http://www.nsysu.edu.tw/files/11-1000-4131.php?Lang=zh-tw">本校地理位置</a>│<br/>
-		 			</p>
-		 		</div>
-		 	
-		 	</div><! --/row -->
-	 	</div><! --/container -->
-	 </div><! --/footerwrap -->
-	 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-	<script src="assets/js/retina-1.1.0.js"></script>
-	<script src="assets/js/jquery.hoverdir.js"></script>
-	<script src="assets/js/jquery.hoverex.min.js"></script>
-	<script src="assets/js/jquery.prettyPhoto.js"></script>
-  	<script src="assets/js/jquery.isotope.min.js"></script>
-  	<script src="assets/js/custom.js"></script>
+	</div>
+	<!-- /Team -->
+
+	<!-- Blog -->
+	<div id="blog" class="section md-padding bg-grey">
+
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Row -->
+			<div class="row">
+
+				<!-- Section header -->
+				<div class="section-header text-center">
+					<h2 class="title">Recents news</h2>
+				</div>
+				<!-- /Section header -->
+
+				<!-- blog -->
+				<div class="col-md-4">
+					<div class="blog">
+						<div class="blog-img">
+							<img class="img-responsive" src="./img/blog1.jpg" alt="">
+						</div>
+						<div class="blog-content">
+							<ul class="blog-meta">
+								<li><i class="fa fa-user"></i>John doe</li>
+								<li><i class="fa fa-clock-o"></i>18 Oct</li>
+								<li><i class="fa fa-comments"></i>57</li>
+							</ul>
+							<h3>Molestie at elementum eu facilisis sed odio</h3>
+							<p>Nec feugiat nisl pretium fusce id velit ut tortor pretium. Nisl purus in mollis nunc sed. Nunc non blandit massa enim nec.</p>
+							<a href="blog-single.html">Read more</a>
+						</div>
+					</div>
+				</div>
+				<!-- /blog -->
+
+				<!-- blog -->
+				<div class="col-md-4">
+					<div class="blog">
+						<div class="blog-img">
+							<img class="img-responsive" src="./img/blog2.jpg" alt="">
+						</div>
+						<div class="blog-content">
+							<ul class="blog-meta">
+								<li><i class="fa fa-user"></i>John doe</li>
+								<li><i class="fa fa-clock-o"></i>18 Oct</li>
+								<li><i class="fa fa-comments"></i>57</li>
+							</ul>
+							<h3>Molestie at elementum eu facilisis sed odio</h3>
+							<p>Nec feugiat nisl pretium fusce id velit ut tortor pretium. Nisl purus in mollis nunc sed. Nunc non blandit massa enim nec.</p>
+							<a href="blog-single.html">Read more</a>
+						</div>
+					</div>
+				</div>
+				<!-- /blog -->
+
+				<!-- blog -->
+				<div class="col-md-4">
+					<div class="blog">
+						<div class="blog-img">
+							<img class="img-responsive"  src="./img/blog3.jpg" alt="">
+						</div>
+						<div class="blog-content">
+							<ul class="blog-meta">
+								<li><i class="fa fa-user"></i>John doe</li>
+								<li><i class="fa fa-clock-o"></i>18 Oct</li>
+								<li><i class="fa fa-comments"></i>57</li>
+							</ul>
+							<h3>Molestie at elementum eu facilisis sed odio</h3>
+							<p>Nec feugiat nisl pretium fusce id velit ut tortor pretium. Nisl purus in mollis nunc sed. Nunc non blandit massa enim nec.</p>
+							<a href="blog-single.html">Read more</a>
+						</div>
+					</div>
+				</div>
+				<!-- /blog -->
+
+			</div>
+			<!-- /Row -->
+
+		</div>
+		<!-- /Container -->
+
+	</div>
+	<!-- /Blog -->
+
+	<!-- Contact -->
+	<div id="contact" class="section md-padding">
+
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Row -->
+			<div class="row">
+
+				<!-- Section-header -->
+				<div class="section-header text-center">
+					<h2 class="title">Get in touch</h2>
+				</div>
+				<!-- /Section-header -->
+
+				<!-- contact -->
+				<div class="col-sm-4">
+					<div class="contact">
+						<i class="fa fa-phone"></i>
+						<h3>Phone</h3>
+						<p>512-421-3940</p>
+					</div>
+				</div>
+				<!-- /contact -->
+
+				<!-- contact -->
+				<div class="col-sm-4">
+					<div class="contact">
+						<i class="fa fa-envelope"></i>
+						<h3>Email</h3>
+						<p>email@support.com</p>
+					</div>
+				</div>
+				<!-- /contact -->
+
+				<!-- contact -->
+				<div class="col-sm-4">
+					<div class="contact">
+						<i class="fa fa-map-marker"></i>
+						<h3>Address</h3>
+						<p>1739 Bubby Drive</p>
+					</div>
+				</div>
+				<!-- /contact -->
+
+				<!-- contact form -->
+				<div class="col-md-8 col-md-offset-2">
+					<form class="contact-form">
+						<input type="text" class="input" placeholder="Name">
+						<input type="email" class="input" placeholder="Email">
+						<input type="text" class="input" placeholder="Subject">
+						<textarea class="input" placeholder="Message"></textarea>
+						<button class="main-btn">Send message</button>
+					</form>
+				</div>
+				<!-- /contact form -->
+
+			</div>
+			<!-- /Row -->
+
+		</div>
+		<!-- /Container -->
+
+	</div>
+	<!-- /Contact -->
 
 
-    <script>
-// Portfolio
-(function($) {
-	"use strict";
-	var $container = $('.portfolio'),
-		$items = $container.find('.portfolio-item'),
-		portfolioLayout = 'fitRows';
-		
-		if( $container.hasClass('portfolio-centered') ) {
-			portfolioLayout = 'masonry';
-		}
-				
-		$container.isotope({
-			filter: '*',
-			animationEngine: 'best-available',
-			layoutMode: portfolioLayout,
-			animationOptions: {
-			duration: 750,
-			easing: 'linear',
-			queue: false
-		},
-		masonry: {
-		}
-		}, refreshWaypoints());
-		
-		function refreshWaypoints() {
-			setTimeout(function() {
-			}, 1000);   
-		}
-				
-		$('nav.portfolio-filter ul a').on('click', function() {
-				var selector = $(this).attr('data-filter');
-				$container.isotope({ filter: selector }, refreshWaypoints());
-				$('nav.portfolio-filter ul a').removeClass('active');
-				$(this).addClass('active');
-				return false;
-		});
-		
-		function getColumnNumber() { 
-			var winWidth = $(window).width(), 
-			columnNumber = 1;
-		
-			if (winWidth > 1200) {
-				columnNumber = 5;
-			} else if (winWidth > 950) {
-				columnNumber = 4;
-			} else if (winWidth > 600) {
-				columnNumber = 3;
-			} else if (winWidth > 400) {
-				columnNumber = 2;
-			} else if (winWidth > 250) {
-				columnNumber = 1;
-			}
-				return columnNumber;
-			}       
-			
-			function setColumns() {
-				var winWidth = $(window).width(), 
-				columnNumber = getColumnNumber(), 
-				itemWidth = Math.floor(winWidth / columnNumber);
-				
-				$container.find('.portfolio-item').each(function() { 
-					$(this).css( { 
-					width : itemWidth + 'px' 
-				});
-			});
-		}
-		
-		function setPortfolio() { 
-			setColumns();
-			$container.isotope('reLayout');
-		}
-			
-		$container.imagesLoaded(function () { 
-			setPortfolio();
-		});
-		
-		$(window).on('resize', function () { 
-		setPortfolio();          
-	});
-})(jQuery);
-</script>
-  </body>
+	<!-- Footer -->
+	<footer id="footer" class="sm-padding bg-dark">
+
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Row -->
+			<div class="row">
+
+				<div class="col-md-12">
+
+					<!-- footer logo -->
+					<div class="footer-logo">
+						<a href="index.html"><img src="img/logo-alt.png" alt="logo"></a>
+					</div>
+					<!-- /footer logo -->
+
+					<!-- footer follow -->
+					<ul class="footer-follow">
+						<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+						<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+						<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+						<li><a href="#"><i class="fa fa-youtube"></i></a></li>
+					</ul>
+					<!-- /footer follow -->
+
+					<!-- footer copyright -->
+					<div class="footer-copyright">
+						<p>Copyright © 2017. All Rights Reserved. Designed by <a href="https://colorlib.com" target="_blank">Colorlib</a></p>
+					</div>
+					<!-- /footer copyright -->
+
+				</div>
+
+			</div>
+			<!-- /Row -->
+
+		</div>
+		<!-- /Container -->
+
+	</footer>
+	<!-- /Footer -->
+
+	<!-- Back to top -->
+	<div id="back-to-top"></div>
+	<!-- /Back to top -->
+
+	<!-- Preloader -->
+	<div id="preloader">
+		<div class="preloader">
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+	</div>
+	<!-- /Preloader -->
+
+	<!-- jQuery Plugins -->
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+	<script type="text/javascript" src="js/jquery.magnific-popup.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+
+</body>
+
 </html>
